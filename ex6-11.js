@@ -4,13 +4,16 @@ function hyoji(){
     //テキストボックスの文字数
     var cnt = document.timer.moji.value.length;
     //文字が全部表示されているか確認
-}
-if ( cnt<11 ){
+
+if ( cnt < 11 ){
     //現在より一文字多く切り出して表示
-    document.timer.moji.value = str.substr(0,cnt+1);}
+    document.timer.moji.value = str.subster(0,cnt+1);}
     else{
         //すべて表示されたら、空文字に戻す
-        document.timer.moji.value = "";}
+        document.timer.moji.value = "";}}
         function startfnc(){
             //関数hyouji()1000ミリ秒間隔で呼び戻す
             setlnterval("hyouji()",1000);}
+            function mes(){
+                alert("3秒たちました!");
+            }
