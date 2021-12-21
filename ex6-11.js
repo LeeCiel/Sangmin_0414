@@ -13,7 +13,7 @@ if ( cnt < 11 ){
         document.timer.moji.value = "";}}
         function startfnc(){
             //関数hyouji()1000ミリ秒間隔で呼び戻す
-            setlnterval("hyouji()",1000);}
+            setInterval("hyouji()",1000);}
             function mes(){
                 alert("3秒たちました!");
             }
