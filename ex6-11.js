@@ -17,3 +17,5 @@ if ( cnt < 11 ){
     function mes(){
     alert("3秒たちました!");
     }
+    //setTimeout()を含む関数を呼び出す
+    setTimeout("hyoji()",1000);
