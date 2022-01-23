@@ -10,5 +10,5 @@ if ( cnt < 11 ){
     document.timer2.moji2.value = str.substr(0,cnt+1); }
     else {
     //すべて表示されたら、空文字に戻す
-    document.timer2.moji2.value = "";}}
-    setTimeout("hyoji2()",1000);
+    document.timer2.moji2.value = "";}
+    setTimeout("hyoji2()",1000);}
