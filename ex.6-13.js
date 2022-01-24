@@ -1,2 +1,2 @@
-function imagchange3(){document.getElementById('josai_logo').src='./keiei_small.jpg';}
-function imagchange4(){document.getElementById('josai_logo').src='./josai.jpg';}
+function imagchange3(){document.getElementById('logo1').src='./josai.jpg';}
+function bthrees(){document.getElementById('logo1').src='./keiei_small.jpg';}
